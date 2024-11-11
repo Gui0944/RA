@@ -24,7 +24,20 @@
         >
         </a-entity>
       </a-marker>
-     
+     <a-marker
+        type="pattern"
+        url="./pattern-FA.patt"
+        emitevents="true"
+        cursor="rayOrigin: mouse"
+      >
+        <a-entity
+          position="0 1 0"
+          scale="2 2 2"
+          rotation="0 0 0"
+          gltf-model="./viper.glb"
+        >
+        </a-entity>
+      </a-marker>
 
       <!-- Câmera -->
       <a-entity camera></a-entity>
